@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Skill test - practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div>
+        <div class="single-variant-selector">
+          <h4>Select Size</h4>
+          <select name="size" id="size">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+        </div>
+        
+        <div class="single-variant-selector">
+        <h4>Select Color</h4>
+        <select name="color" id="color">
+          <option value="Black">Black</option>
+          <option value="White">White</option>
+          <option value="Blue">Blue</option>
+        </select>
+      </div>
+        <hr>
+        <div class="single-variant-selector">
+        <h4>Base Variant</h4>
+        <select name="base" id="base">
+          <option data-variant-id="111" value="Black / S">Black / S</option>
+          <option data-variant-id="222" value="Black / M">Black / M</option>
+          <option data-variant-id="333" value="Black / L">Black / L</option>
+
+          <option data-variant-id="444" value="White / S">White / S</option>
+          <option data-variant-id="555" value="White / M">White / M</option>
+          <option data-variant-id="666" value="White / L">White / L</option>
+
+          <option data-variant-id="777" value="Blue / S">Blue / S</option>
+          <option data-variant-id="888" value="Blue / M">Blue / M</option>
+          <option data-variant-id="999" value="Blue / L">Blue / L</option>
+        </select>
+      </div>
+      </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
